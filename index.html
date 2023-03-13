@@ -5,27 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
+<!-- when committing, remember to include Fix typo and add classes to divs and add images folder-->
+
 <body>
     <div class="container-1">
 
+
         <div class="header">
-            <div>Header Logo</div>
-            <ul>
+            <div class="header-logo top-section">Header Logo</div>
+            <ul class="top-section" >
                 <li> <a href="#">header link one</a> </li>
                 <li> <a href="#">header link two</a> </li>
                 <li> <a href="#">header link three</a> </li>
             </ul>
         </div>
 
-        <div class="content-1">
+        <div class="bottom">
             <div class="info-1">
-                <h2>This website is awesome</h2>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the colow is lower contrast</p>
-                <button>Sign up</button>
+                <h2 class="hero-main-text">This website is awesome</h2>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button id="first-button">Sign up</button>
             </div>
-
-            <img src="">
+            <img id="coffee-img" src="./images/coffee.jpg" alt="birds eye view of coffee on a table">
         </div>
 
     </div>
@@ -33,25 +37,25 @@
 
     <div class="container-2">
 
-        <h2>Some random information.</h2>
+        <h2 id="information-header">Some random information.</h2>
         <div class="content-2">
             <div class="info">
-                <img src="">
+                <img src="./images/coffee.jpg" alt="birds eye view of coffee on a table">
                 <div>this is some subtext under an illustration or image</div>
             </div>
 
             <div class="info">
-                <img src="">
+                <img src="./images/coffee.jpg" alt="birds eye view of coffee on a table">
                 <div>this is some subtext under an illustration or image</div>
             </div>
 
             <div class="info">
-                <img src="">
+                <img src="./images/coffee.jpg" alt="birds eye view of coffee on a table">
                 <div>this is some subtext under an illustration or image</div>
             </div>
 
             <div class="info">
-                <img src="">
+                <img src="./images/coffee.jpg" alt="birds eye view of coffee on a table">
                 <div>this is some subtext under an illustration or image</div>
             </div>
 
@@ -63,10 +67,10 @@
     <div class="container-3">
 
         <div class="content-3">
-            <div>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, 
+            <div id="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, 
                 or maybe people will actually read it. Who knows? All I know is that it looks nice.
             </div>
-            <div>-Thor, God of Thunder</div>
+            <div id="author">-Thor, God of Thunder</div>
         </div>
 
     </div>
@@ -76,11 +80,11 @@
 
         <div class="box">
             <div class="content-4">
-                <div>Call to action! It's time!</div>
+                <div id="bold-text">Call to action! It's time!</div>
                 <div>Sign up for our product by clicking that button right over there!</div>
             </div>
 
-            <button>Sign up</button>
+            <button id="button-2">Sign up</button>
         </div>
 
     </div>
