@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container-1,
@@ -149,6 +150,7 @@ img {
     flex-direction: column;
     padding: 40px;
     align-items: flex-end;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #quote-text {
@@ -191,11 +193,13 @@ img {
 }
 
 #button-2 {
-    background-color: #3882f6;
+    background-color: #2076ff;
     color: #f9faf8;
     border-color: #f9faf8;
     border-radius: 5px;
     padding: 5px 23px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 #bold-text {
